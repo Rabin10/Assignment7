@@ -1,0 +1,20 @@
+:root { 
+    font-family: system-ui, Arial, sans-serif;
+ }
+body {
+     max-width: 900px; margin: 2rem auto; padding: 0 1rem;
+     }
+section { 
+    margin: 1.5rem 0;
+ }
+
+#cat-list { 
+    list-style: none; padding: 0; display: flex; gap: 0.5rem; flex-wrap: wrap;
+ }
+
+#cat-list li { 
+    background:#f4f4f4; padding: 0.35rem 0.6rem; border-radius: 8px; cursor: pointer; 
+}
+.card { 
+    border: 1px solid #ddd; border-radius: 10px; padding: 0.75rem; margin: 0.4rem 0;
+ }

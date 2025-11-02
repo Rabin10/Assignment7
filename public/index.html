@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+  Name: Rabin Regmi
+  Date: 10/27/2025
+  CSC 372 - Assignment 7: Jokebook
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jokebook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Jokebook </h1>
+
+  <section>
+    <h2>Random Joke</h2>
+    <div id="random">Loading…</div>
+    <button id="btn-random">Another one</button>
+  </section>
+
+  <section>
+    <h2>Categories</h2>
+    <button id="btn-load-cats">Load Categories</button>
+    <ul id="cat-list"></ul>
+
+    <div>
+      <input id="cat-input" placeholder="e.g. funnyJoke">
+      <input id="limit-input" type="number" min="1" placeholder="limit (optional)">
+      <button id="btn-get-cat">Get Jokes</button>
+    </div>
+    <div id="cat-results"></div>
+  </section>
+
+  <section>
+    <h2>Add a Joke</h2>
+    <form id="add-form">
+      <input name="category" placeholder="category" required>
+      <input name="setup" placeholder="setup" required>
+      <input name="delivery" placeholder="delivery" required>
+      <button type="submit">Add</button>
+    </form>
+    <div id="add-out"></div>
+  </section>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
